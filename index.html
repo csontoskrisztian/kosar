@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosár</title>
+</head>
+
+<body>
+    <h1>Kosár</h1>
+
+    <input type="text" placeholder="Termék neve" id="itemName">
+    <input type="number" placeholder="Darabszám" id="itemCount" min="0">
+    <input type="number" placeholder="Egységár" id="itemBasePrice" min="0">
+    <button id="buttonAdd">Hozzáad</button>
+
+    <!-- lista -->
+    <ul id="itemList">
+        <li>Kenyér - 3db - 200Ft - (600Ft)</li>
+    </ul>
+
+    <strong>Összesen: </strong> <span id="sum"></span>Ft (<span id="itemNames"></span>)
+
+    <script src="script.js"></script>
+</body>
+
+</html>
