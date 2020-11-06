@@ -1,0 +1,5 @@
+- Több tömb helyet egy objektum tömb
+    0. Kézzel készített
+    1. Interfész(): tömbök -> objektum tömb
+- Táblázat lista helyett
+- Sorosok törlése (id (index)) -> törlés gomb egy új oszlopban, minden sorban
